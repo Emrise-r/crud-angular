@@ -1,0 +1,8 @@
+<h2>Are you Sure ?</h2>
+<br>
+<a [routerLink]="''">Back to List</a>
+<br>
+
+<p>{{product.name}}</p>
+<p>{{product.description}}</p>
+<input type="submit" [value]="'Delete'" (click)="delete()">
